@@ -1,8 +1,8 @@
-*   {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
+* {
+     margin: 0;
+     padding: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     box-sizing: border-box;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 
 .contenedor  {   
     width: 90%;
-    max-width: 470%;
+    max-width: 470px;
     background: linear-gradient(125deg,  #00feba,#5b548a);
     color: #fff;
     margin: 100px auto 0;
@@ -45,13 +45,13 @@ body {
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
-    width: 60%;
-    height: 60%;
+    width: 60px;
+    height: 60px;
     cursor: pointer;
  }
 
  button img  {
-    width: 25%;
+    width: 25px;
  }
 
  button:hover  {
@@ -59,12 +59,12 @@ body {
     color: #ddd;
  }
 
- .clima-icono  {
-    width: 170%;
+ .clima_icono  {
+    width: 170px;
     margin-top: 30px;
  }
 
- .clima-texto  {
+ .climaTexto  {
     font-size: 15px;
     margin-top: 25px;
     margin-bottom: -25px;
@@ -77,7 +77,7 @@ h1  {
 }
 
 h2  {
-    font-size: 80px;
+    font-size: 30px;
     font-weight: 400;
     margin-top: -10px;
 }
