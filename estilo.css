@@ -7,7 +7,7 @@
 
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                url(`https://images.unsplash.com/photo-1504608524841-42fe6f032b4b`);
+                url(`https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?q=80&w=2070`);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -19,6 +19,7 @@ body {
     max-width: 470px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37)
     color: #fff;
